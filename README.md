@@ -1,4 +1,4 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+1. Stack: SASS, HTML, BEM
+2. Click the link to see the demo of the landing page [Demo link](https://Chelovekozavr.github.io/Thrivetalk/)
+3. Click the link to find the design [link](https://www.figma.com/file/aHd2rHMrnzDXhowLuIQjIyVQ/ThriveTalk-Landing-Page?node-id=0%3A1)
+
