@@ -14,7 +14,6 @@
 }
 
 .blocks-big {
-  margin-top: 120px;
   display: grid;
   grid-template: repeat(2, minmax(360px, 480px)) /
     repeat(3, minmax(300px, 480px));
@@ -79,40 +78,79 @@
 
     @media (max-width: 400px) {
       padding-top: 20%;
-      height: 360px;
     }
 
     &--pink {
       background: $pink-block-color;
+
+      &:hover {
+        background: url(/images/7.jpg);
+        background-size: cover;
+      }
     }
 
     &--green {
       background: $green-block-color;
+
+      &:hover {
+        background: url(/images/8.jpg);
+        background-size: cover;
+      }
     }
 
     &--light-blue {
       background: $logo-color;
+
+      &:hover {
+        background: url(/images/9.jpg);
+        background-size: cover;
+      }
     }
 
     &--blue {
       background: $blue-block-color;
+
+      &:hover {
+        background: url(/images/10.jpg);
+        background-size: cover;
+      }
     }
 
     &--dark-blue {
       background: $main-color;
+
+      &:hover {
+        background: url(/images/11.jpg);
+        background-size: cover;
+      }
     }
 
-    &--img-bg {
-      background: url(/images/3.jpg);
-      background-size: cover;
+    &--green-big {
+      background: $green-block-color;
+
+      &:hover {
+        background: url(/images/3.jpg);
+        background-size: cover;
+      }
     }
 
     &--white {
       background: $white-block-color;
+
+      &:hover {
+        background: url(/images/12.jpg);
+        background-size: cover;
+      }
     }
 
     &--purple {
       background: $purple-block-color;
+
+      &:hover {
+        background: url(/images/13.jpg);
+        background-size: cover;
+        background-position: left;
+      }
     }
   }
   

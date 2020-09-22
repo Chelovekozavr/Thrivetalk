@@ -271,7 +271,7 @@
   }
 
   &__title {
-    margin-top: 30px;
+    margin-top: 20px;
 
     font-size: 48px;
     line-height: 53px;
@@ -289,7 +289,10 @@
   }
 
   &__button-container {
+    display: flex;
+    justify-content: space-between;
     margin-top: 80px;
+    max-width: 350px;
 
     @media (max-width: 350px) {
       margin-top: 40px;
@@ -300,7 +303,6 @@
 
   &__button {
     margin-top: 20px;
-    margin-right: 15px;
 
     width: 150px;
     height: 50px;
